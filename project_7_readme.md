@@ -11,7 +11,7 @@ Time spent: **5** hours spent in total
     - Vulnerability types: XSS
     - Tested in version:
     - Fixed in version: 
-  - [ ] GIF Walkthrough: XSS1.gif
+  - [ ] GIF Walkthrough: XSS1.gif https://github.com/Monotone101/codepath_homework/blob/4ef2f5d4864520bbbb9785682deb33aaf77d5d9a/XSS1.gif
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -20,7 +20,7 @@ Time spent: **5** hours spent in total
     - Vulnerability types: XSS
     - Tested in version:
     - Fixed in version: 
-  - [ ] GIF Walkthrough: XSS2.gif
+  - [ ] GIF Walkthrough: XSS2.gif https://github.com/Monotone101/codepath_homework/blob/4ef2f5d4864520bbbb9785682deb33aaf77d5d9a/XSS2.gif
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -29,7 +29,7 @@ Time spent: **5** hours spent in total
     - Vulnerability types: SQLi
     - Tested in version:
     - Fixed in version: 
-  - [ ] GIF Walkthrough: SQLi.gif
+  - [ ] GIF Walkthrough: SQLi.gif https://github.com/Monotone101/codepath_homework/blob/4ef2f5d4864520bbbb9785682deb33aaf77d5d9a/SQLi.gif
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
