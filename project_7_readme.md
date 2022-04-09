@@ -65,7 +65,7 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+Challenges encountered while doing the work was how to submit a file to this github. I'm new to github and wasn't sure if the file was properlly submitted or not.
 
 ## License
 
