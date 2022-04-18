@@ -1,6 +1,6 @@
 # Project 8 - Pentesting Live Targets
 
-Time spent: **11** hours spent in total
+Time spent: **X** hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -24,10 +24,11 @@ Description: I inject this SQL command "%27%20OR%20SLEEP(10)=0--%27" as the idof
 <img src="BlueSQLi.gif">
 
 
-Vulnerability #2: 
+Vulnerability #2: Session Hijacking/Fixation
 
-Description:
+Description: I logged into the target first, then I give the logged-in session ID to the attacker. I used two different browsers, I logged in one first first as a staff, then I took that session ID, then I changed the session ID in the other browser actinng as the user, and then this browser had access to the staff menu too.
 
+<img src="BlueSession.gif">
 
 ## Green
 
@@ -37,11 +38,11 @@ Description: I injected <script>alert('An outsider found the XSS!');</script> to
 
 <img src="greenXSS.gif">
 
-Vulnerability #2: 
+Vulnerability #2: User enumeration
 
-Description:
+Description: In inspect, the login message differs for the username that exist and doesn't exist. There's 2 different classes, 'failed' and 'failure'. The 'failure' means that username exist and 'failed' means that username don't exist. The developer forgot to keep spaning the tag class each time there's a login.
 
-<img src="green-vuln2.gif">
+<img src="GreenUser.gif">
 
 
 ## Red
@@ -53,11 +54,11 @@ Description: When you change the id parameters of the user profile that isn't su
 
 <img src="RedIDOR.gif">
 
-Vulnerability #2:
+Vulnerability #2:CSRF
 
-Description:
+Description: When you send the post request of the edited user profile, you can see in Burpsuite it ignore the CSRF token. Red doesn't check the token when it is sumbitted so you can change the CSRF token and the name of the user which should only be managed by the staff. As you can see after it is edited, the changes appear on the user profile.
 
-<img src="red-vuln2.gif">
+<img src="RedCSRF.gif">
 
 
 ## Notes
