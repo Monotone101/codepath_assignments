@@ -10,10 +10,10 @@
 
 I followed steps in Milestone 0 to 2.  I downloaded the GCP SDK and then I initialize it with gccloud. And then I created the MHN Admin VM via my cloud provider, and I setup the firewall rules by following the instructions. I did <gcloud compute ssh mhn-admin> to establish ssh access to the VM. I did the Milestone 2: Install the MHN Admin Application.
 
-I used GCP to deploy the MHN-Admin [GCP](https://cloud.google.com/sdk/docs/quickstarts). I did 
+I used GCP to deploy the MHN-Admin [GCP](https://cloud.google.com/sdk/docs/quickstarts). 
 <pre>
 sudo apt update
-sudo apt install git python-magic -y
+sudo apt install git python-magic
 </pre>
 Next, I downloaded MHN and installed it:
 <pre>
@@ -62,7 +62,7 @@ Cowrie simulate a ssh or telnet server, and will serve up a fake shell environme
 
 **Summary:** What does this honeypot simulate and do for a security researcher?
 
-Amun works by emulating a number of vulnerability modules,monitoring ports, and logging shellcode and downloads away for later analysis. What amun do for a security researcher is that it serves as a research tool that can track what hackers are trying to do.
+Amun works by emulating a number of vulnerability modules,monitoring ports, and logging shellcode and downloads away for later analysis. What amun do for a security researcher is that it serves as a research tool that can track what hackers are trying to do. It is a low-interaction honeypot, following the concepts of Nepenthes but extending it with more sophisticated emulation and easier maintenance.
 
 <img src="Honeypot5.gif">
 
@@ -70,7 +70,7 @@ Amun works by emulating a number of vulnerability modules,monitoring ports, and 
 
 **Summary:** What does this honeypot simulate and do for a security researcher?
 
-Snort monitors network traffic in real time, scrutinizing each packet closely to detect a dangerous payload or suspicious anomalies. What snort do for a security researcher is that they can see the compromised attempt beforehands and find ways to fix them. 
+Snort monitors network traffic in real time, scrutinizing each packet closely to detect a malicious payload or suspicious anomalies. It also can look at the data from a pcap file. What snort do for a security researcher is that they can see the compromised attempt beforehands and find ways to fix them. 
 
 <img src="Honeypot6.gif">
 
@@ -80,9 +80,7 @@ Snort monitors network traffic in real time, scrutinizing each packet closely to
 
 **Summary:** How did you find it? Which honeypot captured it? What does each malware do?
 
-
-
-<img src="">
+<>
 
 SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
 
